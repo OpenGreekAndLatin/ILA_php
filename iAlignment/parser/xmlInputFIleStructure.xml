@@ -1,0 +1,37 @@
+<input>
+	<metaData>
+	
+	</metaData>
+	<sources>
+		<source id="1"> </source>
+		<source id="2"> </source>
+		<source id="3"> </source>
+		<source id="4"> </source>
+	</sources>
+	<sentences>	
+		<sentence SentenceId="1">
+			<p sourceId="1"> </p>
+			<p sourceId="2"> </p>
+			<p sourceId="3"> </p>
+			<p sourceId="4"> </p>
+		</sentence>
+		<sentence SentenceId="2">
+			<p sourceId="1"> </p>
+			<p sourceId="2"> </p>
+			<p sourceId="3"> </p>
+			<p sourceId="4"> </p>
+		</sentence>
+		<sentence SentenceId="3">
+			<p sourceId="1"> </p>
+			<p sourceId="2"> </p>
+			<p sourceId="3"> </p>
+			<p sourceId="4"> </p>
+		</sentence>
+		<sentence SentenceId="4">
+			<p sourceId="1"> </p>
+			<p sourceId="2"> </p>
+			<p sourceId="3"> </p>
+			<p sourceId="4"> </p>
+		</sentence>
+	</sentences>
+</input>
