@@ -50,11 +50,35 @@
     .ht:hover .tooltip {
         display:block;
     }
+    .cellpoint{
+
+        width:8px;
+        border-radius:3px;
+        margin: 1px;
+        padding:3px;
+
+    }
+    .label{
+        font-size:12px;
+        padding: 4px;
+        font-weight: 700;
+    }
+    .badge{
+        background-color: #FFFFFF;color: #222222;
+
+    }
+    .table{
+        padding:3px;
+        margin: 2px;
+        width: auto;
+    }
+
+
 
 </style>
 </head>
 <body>
-    <div class="wrapper" style="margin:auto;background-color: #EEE">
+    <div class="wrapper" style="margin:auto;background-color: #EEE; width: 90%">
         <?php
         require_once ("../iAlignment/iAligner.php");
         require_once ("../iAlignment/Viewer.php");
@@ -64,7 +88,13 @@
         $viewer= new Viewer();
         $alignmnent=$ialigner->PairwiseAlignment($sentence[0],$sentence[1]);
         $viewer->setAlignment($alignmnent);
-        echo $viewer->paitwiseAlignment_to_htmltable();
+        echo $viewer->pairwiseAlignment_to_htmltable();
+        echo "<br>";
+        //echo $viewer->pairwiseAlignment_to_coloredText();
+        //echo "<br>";
+        echo $viewer->pairwiseAlignment_statisitcs();
+        echo "<br> <h3>The longest common substring</h3>";
+        echo $viewer->pairwiseAlignment_longestcommonsubstring();
         ?>
     </div>
 </body>

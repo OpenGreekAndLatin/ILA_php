@@ -1,0 +1,15 @@
+{
+  "name": "iAlignment/iAlignment",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Tariq Yousef",
+      "email": "tariq.yousef@dh.uni-leipzig.de"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "3.7.14"
+  }
+}
